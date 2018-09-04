@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+	<definitions>
+		<definition>
+			<key>payment_payir_title</key>
+			<value><![CDATA[پرداخت اینترنتی Pay.ir]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_payir_status_title</key>
+			<value><![CDATA[تعیین وضعیت]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_payir_status_description</key>
+			<value><![CDATA[تعیین کنید پرداخت اینترنتی Pay.ir فعال گردد و یا خیر؟]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_payir_api_title</key>
+			<value><![CDATA[کلید API دریافتی]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_payir_api_description</key>
+			<value><![CDATA[کلید API دریافتی شما از پرداخت اینترنتی Pay.ir.]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_payir_sendurl_title</key>
+			<value><![CDATA[آدرس ارسال داده ها]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_payir_sendurl_description</key>
+			<value><![CDATA[آدرس پیش فرض ارسال داده ها به وب سرویس پرداخت اینترنتی Pay.ir.]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_payir_verifyurl_title</key>
+			<value><![CDATA[آدرس تایید تراکنش]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_payir_verifyurl_description</key>
+			<value><![CDATA[آدرس پیش فرض تایید تراکنش در وب سرویس پرداخت اینترنتی Pay.ir.]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_payir_gatewayurl_title</key>
+			<value><![CDATA[آدرس انتقال به صفحه پرداخت]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_payir_gatewayurl_description</key>
+			<value><![CDATA[آدرس پیش فرض انتقال به صفحه پرداخت اینترنتی Pay.ir.]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_payir_currency_title</key>
+			<value><![CDATA[واحد پول]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_payir_currency_description</key>
+			<value><![CDATA[تعیین واحد پول پیش فرض در زمان انتقال به صفحه پرداخت.]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_payir_zone_title</key>
+			<value><![CDATA[منطقه پرداخت]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_payir_zone_description</key>
+			<value><![CDATA[در صورتی که منطقه ای انتخاب گردد، این روش پرداخت فقط برای منطقه انتخاب شده فعال خواهد بود.]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_payir_order_title</key>
+			<value><![CDATA[وضعیت سفارش]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_payir_order_description</key>
+			<value><![CDATA[تعیین وضعیت سفارش هایی که از طریق روش پرداخت اینترنتی Pay.ir با موفقیت انجام می شوند.]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_payir_sort_title</key>
+			<value><![CDATA[ترتیب نمایش]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_payir_sort_description</key>
+			<value><![CDATA[موقعیت جایگزینی روش پرداخت اینترنتی Pay.ir در صفحه پرداخت نهایی. مقادیر کمتر بالاتر قرار می گیرند.]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_payir_method_title</key>
+			<value><![CDATA[پرداخت اینترنتی Pay.ir]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_payir_description</key>
+			<value><![CDATA[شما می توانید وجه سفارش خود را سریع و امن بصورت اینترنتی با یکی از کارت های عضو شبکه شتاب پرداخت نمایید.]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_payir_something_wrong</key>
+			<value><![CDATA[در پردازش سفارش خطایی رخ داده است. لطفا دوباره تلاش کنید.]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_payir_error_code</key>
+			<value><![CDATA[کد خطا: ]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_payir_error_message</key>
+			<value><![CDATA[متن پیام خطا: ]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_payir_request_error</key>
+			<value><![CDATA[در ارتباط با پرداخت اینترنتی Pay.ir خطایی رخ داده است.]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_payir_verify_error</key>
+			<value><![CDATA[در ارتباط با پرداخت اینترنتی Pay.ir و یا تایید تراکنش خطایی رخ داده است.]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_payir_invalid_payment</key>
+			<value><![CDATA[تراكنش ناموفق می باشد و یا توسط پرداخت کننده کنسل شده است.]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_payir_invalid_data</key>
+			<value><![CDATA[اطلاعات ارسال شده مربوط به تایید تراکنش ناقص و یا غیر معتبر است.]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_payir_invalid_amount</key>
+			<value><![CDATA[رقم سفارش با رقم پرداخت شده مطابقت ندارد.]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_payir_curl</key>
+			<value><![CDATA[تابع cURL برای اتصال به پرداخت اینترنتی Pay.ir در سرور شما فعال نمی باشد. برای فعال کردن این تابع با مدیر سرور خود تماس بگیرید.]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_payir_undefined</key>
+			<value><![CDATA[امکان برقراری ارتباط به وب سرویس پرداخت اینترنتی Pay.ir در این لحظه وجود ندارد و یا پاسخ دریافتی غیر معتبر است.]]></value>
+			<group>modules-payment</group>
+		</definition>
+		<definition>
+			<key>payment_payir_method_authority</key>
+			<value><![CDATA[شماره رسید تراکنش پرداخت اینترنتی: ]]></value>
+			<group>modules-payment</group>
+		</definition>
+	</definitions>
+</language>
